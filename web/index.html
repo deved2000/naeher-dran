@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<title>Näher dran</title>
+<meta name="description" content="Ein Fragenspiel in drei Leveln – für Freundschaften, Kennenlernen und Dates.">
+<meta name="theme-color" content="#1F2733">
+<!-- Web-App auf dem Home-Bildschirm (iPhone & Android) -->
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Näher dran">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div id="app">
+  <div id="frame"></div>
+  <div id="screen"></div>
+  <div id="overlay"></div>
+</div>
+<!-- Decks: jede Datei fügt ein Deck hinzu. Reihenfolge = Reihenfolge der Auswahl auf dem Startbildschirm. -->
+<script src="decks/klassisch.js"></script>
+<script src="decks/date.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

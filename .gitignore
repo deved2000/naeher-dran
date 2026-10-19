@@ -1,0 +1,28 @@
+# Signierschlüssel und Passwörter – niemals einchecken
+*.p12
+*.jks
+*.keystore
+keystore.properties
+github-secrets*.txt
+
+# Android / Gradle
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/.idea/
+android/captures/
+*.iml
+
+# Erzeugte Dateien
+pdf/
+*.apk
+*.aab
+
+# Python
+__pycache__/
+.venv/
+
+# System
+.DS_Store
+Thumbs.db
